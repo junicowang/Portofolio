@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Portofolio Data Science mahasiswa BINUS University. Berisi project Machine Learning, MLOps, dan Data Analysis, beserta pengalaman dan kontak profesional.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Data Science Portfolio">
+<meta property="og:description" content="Portofolio profesional mahasiswa Data Science BINUS: project, skills, dan pengalaman.">
+<title>Data Science Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand"><span class="mark" id="brand-mark">JN</span><span id="brand-name">Nama Anda</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="#cv" class="nav-cta">Download CV</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+<aside class="mobile-menu" id="mobileMenu" aria-label="Mobile menu">
+  <button class="close" id="menuClose" aria-label="Close menu">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+  <a href="#cv">Download CV</a>
+</aside>
+
+<span id="top"></span>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Hi, I&rsquo;m <span class="accent" id="hero-name">Your Name</span></h1>
+        <p class="role" id="hero-role">Data Science Student</p>
+        <p class="hero-bio" id="hero-bio"></p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg>
+            View Projects
+          </a>
+          <a href="#cv" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Download CV
+          </a>
+        </div>
+        <div class="socials" id="hero-socials"></div>
+      </div>
+
+      <div class="hero-visual reveal" data-d="1">
+        <div class="photo-wrap">
+          <div class="photo-frame">
+            <img id="hero-photo" alt="Profile photo" hidden>
+            <div class="photo-ph" id="photo-ph">
+              <span class="avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span>
+              <span>Add your photo</span>
+            </div>
+          </div>
+          <div class="float-card" aria-hidden="true">
+            <svg class="spark" viewBox="0 0 56 30"><polyline points="2,24 12,18 20,20 30,10 40,13 54,3" fill="none" stroke="#0E7A84" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="54" cy="3" r="2.6" fill="#0E7A84"/></svg>
+            <div><div class="fc-k">Model Accuracy</div><div class="fc-v">0.92</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Skills</p>
+      <h2>Tools &amp; technologies</h2>
+    </div>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Portfolio</p>
+      <h2>Featured Projects</h2>
+      <p>A collection of Data Science and Machine Learning projects. Click any card to open the full case study.</p>
+    </div>
+    <div class="proj-grid" id="proj-grid"></div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Journey</p>
+      <h2>Experience &amp; Activities</h2>
+    </div>
+    <div class="timeline reveal" id="timeline"></div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION + COMPETITIONS ================= -->
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Background</p>
+      <h2>Education &amp; Competitions</h2>
+    </div>
+    <div class="edu-cert">
+      <div class="reveal" id="edu-col"></div>
+      <div class="reveal" data-d="1" id="comp-col">
+        <div class="edu-block" style="margin-top:0" id="competitions">
+          <div class="lab" style="font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:12px">Competitions &amp; Awards</div>
+          <div class="comp-list" id="comp-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CV ================= -->
+<section id="cv">
+  <div class="wrap">
+    <div class="cv-band reveal">
+      <h2>Want to know more about me?</h2>
+      <p>Download my CV to see the full experience, education, and skills.</p>
+      <a href="#" id="cv-btn" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Contact</p>
+      <h2>Get in Touch</h2>
+    </div>
+    <div class="reveal">
+      <div class="contact-list" id="contact-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <h4 id="foot-name">Nama Anda</h4>
+      <p id="foot-role">Data Science Student</p>
+    </div>
+    <div class="foot-social" id="foot-social"></div>
+  </div>
+  <div class="copyright" id="copyright">© 2026 Nama Anda</div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<!-- ================= PROJECT DETAIL OVERLAY ================= -->
+<div class="detail" id="detail" role="dialog" aria-modal="true" aria-label="Project details">
+  <div class="detail-panel" id="detailPanel"></div>
+</div>
+
+<!-- ================= CERTIFICATE MODAL ================= -->
+<div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-label="Certificate">
+  <div class="cert-backdrop"></div>
+  <div class="cert-panel">
+    <div class="cert-bar">
+      <span class="cert-title"></span>
+      <button class="cert-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="cert-body">
+      <img class="cert-img" alt="Certificate">
+    </div>
+  </div>
+</div>
+
+  <script src="data/01-profile.js"></script>
+  <script src="data/03-education.js"></script>
+  <script src="data/04-skills.js"></script>
+  <script src="data/05-projects.js"></script>
+  <script src="data/06-experience.js"></script>
+  <script src="data/07-competitions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
