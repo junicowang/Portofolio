@@ -11,7 +11,7 @@ DATA.profile = {
   location: "Jakarta, Indonesia",
   locationSub: "Available for remote & on-site",
   bio: "Data Science student with a strong interest in Data Analysis, Machine Learning, and Artificial Intelligence, passionate about turning data into insights and solutions that help solve real world problems. My goal is to continue growing as a Data Science practitioner who can deliver meaningful, real world impact in the industry.",
-  photo: "assets/photo.jpg",
+  photo: "assets/foto.jpg",
   email: "junicoowang@gmail.com",
   whatsapp: "6281267764474",
   github: "https://github.com/junicowang",
