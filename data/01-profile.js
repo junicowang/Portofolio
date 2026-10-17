@@ -16,6 +16,6 @@ DATA.profile = {
   whatsapp: "6281267764474",
   github: "https://github.com/junicowang",
   linkedin: "https://www.linkedin.com/in/junicowang",
-  cvUrl: "https://drive.google.com/uc?export=download&id=11-jeg1kqC6qAJMlTxmiNm8GjEm9dfYXg",
+  cvUrl: "https://drive.google.com/uc?export=download&id=1mv_WfDKz3rBBcTDuJG_KXmQo5cPAbU0A",
   copyrightYear: 2026
 };
